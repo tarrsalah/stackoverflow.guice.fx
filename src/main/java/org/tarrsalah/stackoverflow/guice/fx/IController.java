@@ -15,7 +15,6 @@
  */
 package org.tarrsalah.stackoverflow.guice.fx;
 
-import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 
@@ -27,7 +26,7 @@ import javafx.scene.Parent;
  * @author tarrsalah.org
  */
 public interface IController extends Initializable {
-	@FXML
+	
 	public void printButton();	
 	
 	public Parent getRoot();

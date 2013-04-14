@@ -13,7 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package org.tarrsalah.stackoverflow.guice.fx;
 
 import java.net.URL;
@@ -25,21 +24,22 @@ import javafx.scene.Parent;
  * Controller.java (UTF-8)
  *
  * Apr 13, 2013
+ *
  * @author tarrsalah.org
  */
-public class Controller implements IController{
-	
-	@FXML Parent root;
+public class Controller implements IController {
 
-	public Parent getRoot() {
-		return root;
-	}				
-
-	public void printButton() {
-		System.out.println("Hello Guice !!");
-	}
+	@FXML
+	Parent root;
 
 	public void initialize(URL url, ResourceBundle rb) {
 	}
 
+	public Parent getRoot() {
+		return root;
+	}
+
+	public void printButton() {
+		System.out.println("Hello Guice !!");
+	}
 }

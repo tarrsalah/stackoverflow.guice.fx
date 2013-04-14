@@ -32,7 +32,7 @@ public class InjectingFXMLLoader {
 	 * 
 	 * @param <N>
 	 * @param injector
-	 * @return the associate controller based  on th URL and the injector
+	 * @return a controller injected within an FXML.
 	 */
 	public static <N> N loadFXMLController(final N controller, URL url) throws IOException {
 		FXMLLoader loader= new FXMLLoader();
