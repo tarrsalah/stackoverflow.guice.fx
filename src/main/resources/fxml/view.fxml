@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<BorderPane fx:id="root" prefHeight="202.0" prefWidth="399.999977929685" xmlns:fx="http://javafx.com/fxml" fx:controller="org.tarrsalah.stackoverflow.guice.fx.IController" >
+	<center>
+		<HBox alignment="CENTER" prefHeight="-1.0" prefWidth="-1.0">
+			<children>
+				<Button fx:id="fx_print" alignment="CENTER" contentDisplay="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#printButton" text="Print !" HBox.hgrow="ALWAYS" />
+			</children>
+			<BorderPane.margin>
+				<Insets bottom="20.0" top="10.0" />
+			</BorderPane.margin>
+		</HBox>
+	</center>
+</BorderPane>
